@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+body{
+    padding: 30px 150px;
+}
+#logo{
+    display: inline-block;
+}
+#logo  p{
+    line-height: 18px;
+    text-transform: uppercase;
+    color: gray;
+}
+#logo p span{
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Leckerli One', cursive;
+    font-size: 46px;
+    font-style: italic;
+}
+#icons {
+    position: absolute;
+    display: inline;
+    right: 160px;
+    top: 65px;
+}
+hr{
+    background-image: url(/img/hr-img.png);
+    height: 14px;
+    border: none;
+    /* padding: 0px 40px; */
+}
+
+main p {
+    line-height: 18px;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 12px;
+}
+
+main p span {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#print {
+    display: inline-block;
+    margin-left: 990px;
+    padding: 0;
+}
+
+#print p {
+    margin: 0px;
+    padding: 0px;
+}
+
+main img {
+    justify-content: center;
+    /* padding: 0px 40px; */
+    width: 100%;
+}
+
+#print img {
+    width: unset;
+}
+
+main section p {
+    margin: 0px;
+    text-align: justify;
+    /* width: 86.5%; */
+    padding: 10px 0px;
+    text-indent: 4em;
+}
