@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+body{
+    padding: 30px 150px;
+}
+#logo{
+    display: inline-block;
+}
+#logo  p{
+    line-height: 18px;
+    text-transform: uppercase;
+    color: gray;
+}
+#logo p span{
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Leckerli One', cursive;
+    font-size: 46px;
+    font-style: italic;
+}
+#icons {
+    position: absolute;
+    display: inline;
+    right: 160px;
+    top: 65px;
+}
+hr{
+    background-image: url(/img/hr-img.png);
+    height: 14px;
+    border: none;
+}
