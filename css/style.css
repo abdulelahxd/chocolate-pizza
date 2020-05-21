@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
 body{
     padding: 30px 150px;
 }
@@ -9,7 +11,7 @@ body{
 #logo  p{
     line-height: 18px;
     text-transform: uppercase;
-    color: gray;
+    color: darkgray;
 }
 #logo p span{
     text-transform: capitalize;
@@ -31,14 +33,14 @@ hr{
     /* padding: 0px 40px; */
 }
 
-main p {
+#logo2 p {
     line-height: 18px;
     text-transform: uppercase;
-    color: gray;
+    color: darkgray;
     font-size: 12px;
 }
 
-main p span {
+#logo2 p span {
     color: black;
     text-transform: capitalize;
     font-family: 'Oswald', sans-serif;
@@ -48,11 +50,17 @@ main p span {
 
 #print {
     display: inline-block;
-    margin-left: 990px;
+    margin-left: 1170px;
     padding: 0;
 }
 
-#print p {
+#print{
+    position: absolute;
+    right: 10.5%;
+    top: 215px;
+    width: unset;
+    color: darkgray;
+    font-size: 18px;
     margin: 0px;
     padding: 0px;
 }
@@ -63,14 +71,96 @@ main img {
     width: 100%;
 }
 
-#print img {
+#imgPrint {
+    position: absolute;
+    right: 13%;
+    top: 224px;
     width: unset;
 }
 
 main section p {
     margin: 0px;
     text-align: justify;
-    /* width: 86.5%; */
-    padding: 10px 0px;
+    font-size: 20px;
+    padding: 20px 0px;
     text-indent: 4em;
+    color: gray;
+}
+form{
+    font-family: 'Short Stack', cursive;
+    font-size: 40px;
+}
+form input{
+    transform: scale(2);
+    margin: 18px 0px;
+}
+
+#left {
+    position: absolute;
+    top: 214%;
+    left: 30px;
+    padding: 0px 200px;
+    font-size: 24px;
+}
+
+
+#right {
+    position: absolute;
+    top: 214%;
+    left: 45%;
+    padding: 0px 200px;
+    font-size: 24px;
+}
+#vanBox{
+    display: inline-block;
+}
+#van {
+    width: unset;
+    
+}
+#vanBox p{
+    color: gray;
+    font-size: 20px;
+    width: 75%;
+}
+#vanBox span{
+    line-height: 35px;
+    font-weight: bolder;
+    color: black;
+}
+button{
+    position: absolute;
+    right: 11%;
+    top: 276%;
+    border: none;
+    padding: 12px 30px;
+    background-color: tomato;
+}
+
+#last{
+    margin-top: 80px;
+    height: 0px;
+    border: 0.05px solid lightgray;
+    background-image: none;
+}
+
+#lastLogo {
+    position: absolute;
+    top: 294%;
+    right: 50%;
+}
+footer p{
+    text-align: center;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: darkgray;
+    margin-top: 43px;
+}
+footer p span{
+    font-family: 'Leckerli One', cursive;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-weight: 1200px;
 }
