@@ -36,7 +36,7 @@ run live server on the IDE
 
 ## Authors
 
-* **abdulelah kassara** - **Emad** - *class task* - [abdulelahxd](https://github.com/abdulelahxd)
+* **abdulelah kassara** - **Emad** - *class task* - [abdulelah github](https://github.com/abdulelahxd)
 
 ## License
 
